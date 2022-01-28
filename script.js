@@ -19,7 +19,7 @@ check.addEventListener('change',() => {
     }
 });
 
-
+//function start
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
