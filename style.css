@@ -21,39 +21,26 @@ html{
     --box-shadow:0 0 2px rgba(0,0,0,.9);
     --blue:#0084ff;
     --black:#1A1A1D;
-    --btn:#D902EE;
     --sun:#F1C40F;
     --moon:#ffc815;
-    --block:#fff;
-    --background:whitesmoke;
     --maincolor:#0084ff;
     --line:lightgrey;
     --sec2:#eee;
     --sec1:#fff;
-    --icon:#D902EE;
-    --icon1:#33DBFF;
+    --icon:#33DBFF;
     --opp:crimson;
     --text:#111;
-    --mc:rgba(0, 132, 255,0.5);
     --hov:#ddd;
     --back:rgba(71, 71, 71, 0.9);
 }
 
 /* darkmode */
-body{
-    background-color:var(--background);
-}
-
 body.dark{
     --text:#fff;
     --line:#FFF;
-    --icon:#33DBFF;
-    --icon1:tomato;
+    --icon:tomato;
     --box-shadow:0 0 2px rgba(255,255,255,.9);
-    --btn:#ff8096;
-    --block:#292C35;
     --maincolor:crimson;
-    --mc:rgba(220, 20, 60,0.8);
     --sec2:#1a1a1d;
     --sec1:#111;
     --opp:#0084ff;
@@ -452,7 +439,7 @@ section:nth-child(even) .title::after{
 }
 
 .about .about-content .left .profile .code a{
-    color:var(--icon);
+    color:var(--opp);
 }
 #media{
     margin-bottom: 1rem;
@@ -665,7 +652,7 @@ section:nth-child(even) .title::after{
     font-weight: 900;
 	padding-bottom: 1.8rem;
     margin-bottom: 1.8rem;
-    color: var(--icon);
+    color: var(--opp);
 }
 
 #resume .timeline-content .office:hover{
@@ -681,7 +668,7 @@ section:nth-child(even) .title::after{
 }
 
 #resume .timeline-content p a{
-    color: var(--icon);
+    color: var(--opp);
     font-weight: 600;
 }
 
@@ -1012,7 +999,7 @@ section:nth-child(even) .title::after{
     font-size: 17px;
     text-decoration: none;
     transition: all 0.5s ease;
-    background-color: var(--icon1);
+    background-color: var(--icon);
     color: #1A1A1D;
   }
   
