@@ -795,8 +795,6 @@ section:nth-child(even) .title::after{
 .services .new{
     text-align: center;
     font-size: 1.8rem;
-    width: 70%;
-    margin-left: 15%;
     margin-top: 5rem;
     font-family: "Nunito";
     color: var(--text);
@@ -1412,6 +1410,7 @@ footer .top{
     .awk{
         width: 100%;
     }
+    
     .intro-info{
         display: block;
     }
@@ -1438,8 +1437,8 @@ footer .top{
         font-size: 1.1rem;
     }
     .services .new{
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 0%;
     }
 }
 
@@ -1609,5 +1608,20 @@ footer .top{
     
     .stats .stat .stat-name{
         font-size: 0.7rem;
+    }
+
+    .bottom{
+        padding: 20px 5px;
+    }
+    
+    .bottom span{
+        font-size: 12px;
+    }
+    
+    .contact p{
+        font-size: 1.2rem;
+    }
+    .logo_name .details{
+        font-size: 0.9rem;
     }
 }
