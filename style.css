@@ -1084,22 +1084,21 @@ section:nth-child(even) .title::after{
   }
 .contacts  .btn {
     display: inline-block;
-    padding: 0.85rem 4rem;
-    background-color: var(--maincolor);
+    padding: 0.9rem 4rem;
+    background: none;
     border:2px solid var(--maincolor);
-    color: white;
+    color: var(--text);
     border-radius: 2rem;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 900;
+    font-family: 'Nunito';
     transition: 0.3s;
     
   }
   
 .contacts  .btn:hover {
-    background:var(--sec2);
-    border:2px solid var(--opp);
-    color: var(--text);
+    background:var(--maincolor);
   }
 
 
