@@ -779,29 +779,43 @@ section:nth-child(even) .title::after{
     color: #000;
 }
 
-.services .new{
+.new{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    font-size: 1.8rem;
+    background-color: #141C3A;
+    height: 15rem;
+    font-family: 'Nunito';
     margin-top: 5rem;
-    font-family: "Nunito";
-    color: var(--text);
+    border-radius: 16px;
 }
 
-.services .new h1{
-    color: var(--maincolor);
+.new .start{
+    width: 30%;
+    color: white;
 }
 
-.services .new p{
-    margin-top: 2rem;
-    font-weight: 600;
+.new .start h1{
+    font-size: 3rem;
+    
 }
 
-.services .new p a{
-    color: var(--opp);
+.new .start p{
+    font-size: 1.5rem;
 }
 
-.services .new p a:hover{
-    color: var(--maincolor);
+.new .start a{
+    font-size: 2rem;
+    background:none;
+    color: white;
+    border:2px solid #7510F7;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.new .start a:hover{
+    background: #7510F7;
 }
 
 .stats{
@@ -1451,6 +1465,18 @@ footer .top{
     .services .serv-content .card:not(:first-child){
         margin-top: 5rem;
     }
+    .new .start h1{
+        font-size: 2rem;
+        
+    }
+    .new .start p{
+        font-size: 1rem;
+    }
+    
+    .new .start a{
+        font-size: 1.5rem;
+        padding: 8px 20px;
+    }
     .about .max-width .about-content{
         display: flex;
         flex-direction: column;
@@ -1544,6 +1570,18 @@ footer .top{
 }
 
 @media only screen and (max-width:540px) {
+    .new .start h1{
+        font-size: 1.7rem;
+        
+    }
+    .new .start p{
+        font-size: 0.8rem;
+    }
+    
+    .new .start a{
+        font-size: 1.2rem;
+        padding: 5px 15px;
+    }
     .max-width{
         padding: 0;
     }
