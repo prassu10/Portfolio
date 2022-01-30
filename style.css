@@ -689,37 +689,94 @@ section:nth-child(even) .title::after{
 	bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
+/* portfolio section */
+.portfolio{
+    font-family: 'Nunito';
+}
 
 .portfolio .title::after{
     content: "what i did";
 }
+.portfolio h1{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    color: var(--maincolor);
+    text-transform: uppercase;
+}
+.portfolio p{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 2rem;
+}
 
+#main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.pic {
+    width: 32rem;
+    height: 18rem;
+    margin: 3rem;
+    border-radius: 3px;
+    box-shadow: var(--box-shadow);
+    background-color: palegreen;
+    position:relative;
+    overflow: hidden;
+    cursor: pointer;
+}
 
+.pic img{
+    width:100%;
+}
 
+.overview{
+    position:absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.overview h3{
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Nunito";
+    font-weight: 900;
+}
 
+.overview p{
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: rgb(196, 196, 196);
+    font-family: "Nunito";
+    font-weight: 600;
+}
 
+.pic:hover .overview{
+    opacity: 1;
+    pointer-events: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
+.pic:hover img{
+    transform: scale(1.1);
+}
 
 
 
