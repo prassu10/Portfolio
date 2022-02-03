@@ -54,33 +54,26 @@ $(document).ready(function(){
     // stats
     var statSection = $("#stats"),
         stats = $(".stat-number");
-
-    statSection.waypoint({
-
-        handler: function(direction) {
-
-            stats.each(function() {
-                var $this = $(this);
-
-                $({
-                    Counter: 0
-                }).animate({
-                    Counter: $this.text()
-                }, {
-                    duration: 6000,
-                    easing: 'swing',
-                    step: function(curValue) {
+        statSection.waypoint({
+            handler: function(direction) {
+                stats.each(function() {
+                    var $this = $(this);$({
+                        Counter: 0
+                    })
+                    .animate({
+                        Counter: $this.text()
+                    }, 
+                    {
+                        duration: 6000,
+                        easing: 'swing',
+                        step: function(curValue) {
                         $this.text(Math.ceil(curValue));
                     }
                 });
             });
-            
             this.destroy();
-
         },
-
         offset: "90%"
-
     });
     
     // pre-loader
@@ -95,6 +88,4 @@ $(document).ready(function(){
         backSpeed: 35,
         loop: true
     });
-    
-    
 });
