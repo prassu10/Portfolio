@@ -83,5 +83,18 @@ $(document).ready(function(){
 
     });
     
+    // pre-loader
+    var loader = document.getElementById("loader");
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
+
+    var untyped = new Typed(".untyping", {
+        strings: ["LOOKING OUTSIDE FOR YOU...."],
+        typeSpeed: 50,
+        backSpeed: 35,
+        loop: true
+    });
+    
     
 });
