@@ -716,6 +716,10 @@ section:nth-child(even) .title::after{
     margin-bottom: 2rem;
 }
 
+.portfolio .mar{
+    margin-top: 8rem;
+}
+
 #main{
     display:flex;
     flex-wrap: wrap;
@@ -728,7 +732,6 @@ section:nth-child(even) .title::after{
     margin: 3rem;
     border-radius: 3px;
     box-shadow: var(--box-shadow);
-    background-color: palegreen;
     position:relative;
     overflow: hidden;
     cursor: pointer;
@@ -741,7 +744,7 @@ section:nth-child(even) .title::after{
 .overview{
     position:absolute;
     top:0;
-    background-color: rgba(0, 0, 0, 0.699);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 2%;
     height: 100%;
     width: 100%;
@@ -756,17 +759,35 @@ section:nth-child(even) .title::after{
 
 .overview h3{
     font-size: 2.5rem;
-    color: white;
+    color: var(--maincolor);
     font-family: "Nunito";
     font-weight: 900;
+    margin-top: 13%;
+}
+
+.pico .overview h3{
+    margin-top: 0;
 }
 
 .overview p{
     padding-top: 1rem;
-    font-size: 1rem;
-    color: rgb(196, 196, 196);
+    font-size: 1.2rem;
+    color: var(--opp);
     font-family: "Nunito";
     font-weight: 600;
+}
+
+.overview div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview div a i{
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    padding:1rem;
+    border-radius: 50%;
 }
 
 .pic:hover .overview{
@@ -778,6 +799,33 @@ section:nth-child(even) .title::after{
     transform: scale(1.1);
 }
 
+.pico{
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.photos {
+    margin:5%;
+    column-count: 3;
+} 
+    
+.photos img {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    filter: contrast(100%);
+    transition: all 0.2s ease-in-out;
+}
+
+.pico .overview{
+    height: 99%;
+}
+
+.pico:hover .overview{
+    opacity: 1;
+    pointer-events: auto;
+}
 
 
 /* services section styling */
