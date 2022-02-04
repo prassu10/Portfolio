@@ -982,15 +982,6 @@ section:nth-child(even) .title::after{
     content: "get in touch";
 }
 
-
-
-
-
-
-
-
-
-
 .contacts .container {
     position: relative;
     z-index: 5;
@@ -1548,6 +1539,10 @@ footer .top{
 }
 
 @media only screen and (max-width:768px) {
+	.photos {
+        margin:5%;
+        column-count: 2;
+    }
     .services .max-width{
         padding: 0 80px;
     }
@@ -1727,6 +1722,10 @@ footer .top{
 }
 
 @media only screen and (max-width:500px) {
+	.photos {
+        margin:5%;
+        column-count: 1;
+    }
     .stats .stat i{
         font-size: 2.5rem;
     }
