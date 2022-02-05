@@ -853,7 +853,7 @@ section:nth-child(even) .title::after{
 }
 
 .overview div a i:hover{
-	background-color:var(--opp);
+	background-color:#fffb46;
 }
 
 .pic:hover .overview{
@@ -1255,7 +1255,6 @@ h3.me{
 .btnn{
   	text-align: center;
   	margin-top: 5%;
-	cursor: pointer;
 }
 
 .contacts .btn {
@@ -1269,7 +1268,8 @@ h3.me{
     text-transform: uppercase;
     font-weight: 900;
     font-family: 'Nunito';
-    transition: 0.3s;    
+    transition: 0.3s;
+    cursor: pointer;
 }
   
 .contacts .btn:hover {
