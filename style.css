@@ -873,7 +873,7 @@ section:nth-child(even) .title::after{
 
 .photos {
     margin:5%;
-    column-count: 2;
+    column-count: 3;
 } 
     
 .photos img {
@@ -1628,6 +1628,11 @@ footer .top{
 }
 
 @media only screen and (max-width:768px) {
+	.photos {
+    	margin:5%;
+    	column-count: 2;
+	}
+	
 	.services .max-width{
         padding: 0 80px;
     }
