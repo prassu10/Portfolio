@@ -806,7 +806,7 @@ section:nth-child(even) .title::after{
 .overview{
     position:absolute;
     top:0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     padding: 2%;
     height: 100%;
     width: 100%;
@@ -823,7 +823,7 @@ section:nth-child(even) .title::after{
     font-size: 2.5rem;
     color: var(--maincolor);
     font-family: "Nunito";
-    font-weight: 900;
+    font-weight: 800;
     margin-top: 13%;
 }
 
@@ -836,7 +836,7 @@ section:nth-child(even) .title::after{
     font-size: 1.2rem;
     color: var(--opp);
     font-family: "Nunito";
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .overview div{
