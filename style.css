@@ -411,6 +411,7 @@ section:nth-child(even) .title::after{
     margin-bottom: 5rem;
     width: 80%;
     justify-content: center;
+	align-items: center;
 }
 
 .intro-info img {
