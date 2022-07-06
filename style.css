@@ -421,6 +421,7 @@ section:nth-child(even) .title::after{
     font-family: "Nunito";
     margin-bottom: .7rem;
     font-weight: 900;
+    color: var(--opp);
     cursor:default;
 }
 
@@ -428,6 +429,7 @@ section:nth-child(even) .title::after{
     font-family: "Nunito";
     font-weight: 500;
     text-transform: none;
+    color: var(--text);
 }
 
 .about .mes .mename p:hover span{
@@ -1577,11 +1579,7 @@ footer .top{
     .about .mes .meinfo{
         width: 100vw;
         margin-top: 2rem;
-    }
-
-    .about .mes .mename{
-        font-size: 1.3rem;
-    }    
+    } 
 
 	.services .max-width{
         padding: 0 80px;
@@ -1746,7 +1744,11 @@ footer .top{
 }
 
 @media only screen and (max-width:500px) {
-	.services .max-width{
+	.about .mes .mename{
+        display: block;
+    }
+    
+    .services .max-width{
         padding: 0 15px;
     }
     .new{
