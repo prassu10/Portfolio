@@ -388,49 +388,49 @@ section:nth-child(even) .title::after{
     content: "who i am";
 }
 
-.about .me{
+.about .mes{
     display: flex;
     margin: 2rem 3rem;
     justify-content: center;
 }
 
-.about .me .meinfo{
+.about .mes .meinfo{
     width: 65%;
     color: var(--text);
 }
 
-.about .me .meinfo .metext p{
+.about .mes .meinfo .metext p{
     font-size: 1.5rem;
     font-family: "Nunito";
 
 }
 
-.about .me .photo img{
+.about .mes .photo img{
     height: 30rem;
     margin-right: 4rem;
 }
 
-.about .me .mename{
+.about .mes .mename{
     display: flex;
     justify-content: space-between;
     font-size: 1.5rem;
     margin-top: 2rem;
 }
 
-.about .me .mename p{
+.about .mes .mename p{
     font-family: "Nunito";
     margin-bottom: .7rem;
     font-weight: 900;
     cursor:default;
 }
 
-.about .me .mename p span{
+.about .mes .mename p span{
     font-family: "Nunito";
     font-weight: 500;
     text-transform: none;
 }
 
-.about .me .mename p:hover span{
+.about .mes .mename p:hover span{
     color: var(--maincolor);
 }
 
@@ -1564,16 +1564,16 @@ footer .top{
     	column-count: 2;
 	}
 	
-    .about .me{
+    .about .mes{
         display: flex;
         flex-wrap: wrap;
     }
-    .about .me .photo img{
+    .about .mes .photo img{
         width: 70vw;
         height: 70vw;
         margin-right: 0;
     }
-    .about .me .meinfo{
+    .about .mes .meinfo{
         width: 70vw;
         margin-top: 2rem;
     }
