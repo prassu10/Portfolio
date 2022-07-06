@@ -1567,6 +1567,7 @@ footer .top{
     .about .mes{
         display: flex;
         flex-wrap: wrap;
+        margin: 2rem 0;
     }
     .about .mes .photo img{
         width: 70vw;
@@ -1574,9 +1575,13 @@ footer .top{
         margin-right: 0;
     }
     .about .mes .meinfo{
-        width: 70vw;
+        width: 100vw;
         margin-top: 2rem;
     }
+
+    .about .mes .mename{
+        font-size: 1.3rem;
+    }    
 
 	.services .max-width{
         padding: 0 80px;
