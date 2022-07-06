@@ -439,7 +439,7 @@ section:nth-child(even) .title::after{
 
 .about .btns{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .about .btns a{
@@ -452,7 +452,6 @@ section:nth-child(even) .title::after{
     transition: all 0.5s ease;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-top: -50%;
 }
 
 .about .btns a:hover{
@@ -464,7 +463,7 @@ section:nth-child(even) .title::after{
 }
 
 .page-wrap {
-    padding: 2em;
+    padding: 0 2em;
     max-width: 100vw;
     margin: 0 auto;
     font-family: "Nunito";
@@ -473,7 +472,8 @@ section:nth-child(even) .title::after{
     font-size: 3.5rem;
     color: var(--text);
     width: 100%;
-    margin:2rem auto;
+    margin-top: 2rem;
+    margin-bottom:2rem;
     text-align: center;
   }
 
