@@ -560,6 +560,8 @@ section:nth-child(even) .title::after{
 	margin-bottom: 6rem;
     width: 48%;
     height: auto;
+    background-color: var(--sec1);
+    padding: 1rem 2rem;
 }
 
 .timeline-wrap .titl{
@@ -570,11 +572,12 @@ section:nth-child(even) .title::after{
     text-align: center;
     color: var(--maincolor);
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #resume .timeline-block {
 	position: relative;
-	padding-top: 2.5rem;
+	padding: 2.5rem 0;
 }
 
 
@@ -628,11 +631,11 @@ section:nth-child(even) .title::after{
 }
 
 #resume .timeline-wrap::before {
-    left: 2.4rem;
+    left: 4.4rem;
     content: "";
 	display: block;
 	width: 1.5px;
-	height: 89%;
+	height: 88%;
 	background: var(--text);
 	position: absolute;
 	top: 9rem;
@@ -925,6 +928,10 @@ section:nth-child(even) .title::after{
 
 .new .start h1{
     font-size: 3rem;    
+}
+
+.new .start .titlr{
+    padding: 0 10px;
 }
 
 .new .start p{
@@ -1508,7 +1515,7 @@ footer .top{
     }
 
     .services .max-width{
-        padding: 0 0px;
+        padding: 0 20px;
     }
 
 	.contacts .max-width{
@@ -1565,6 +1572,10 @@ footer .top{
     	margin:5%;
     	column-count: 2;
 	}
+
+    .skill-bar-container {
+        margin: 0.5rem 1%;
+    }
 	
     .about .mes{
         display: flex;
@@ -1580,6 +1591,10 @@ footer .top{
         width: 100vw;
         margin-top: 2rem;
     } 
+
+    .portfolio .max-width{
+        padding: 0 20px;
+    }
 
 	.services .max-width{
         padding: 0 80px;
@@ -1675,7 +1690,9 @@ footer .top{
         border-radius: 45px;
     }
     
-    
+    .resume .max-width{
+        padding: 0 20px;
+    }
     .resume .gh{
         display: block;
     }
@@ -1684,12 +1701,7 @@ footer .top{
         width: 100%;
     }
     
-    #resume .timeline-wrap::before {
-        height: 89%;
-        background: var(--text);
-        position: absolute;
-        top: 9rem;
-    }
+
 
     .contact p{
         font-size: 1.2rem;
@@ -1788,6 +1800,11 @@ footer .top{
     }
 }
 
+@media only screen and (max-width:324px) {
+    .new .start a{
+        font-size: 1rem;
+    }
+}
 
 /* pre-loader */
 .loader{
